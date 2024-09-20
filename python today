@@ -1,0 +1,107 @@
+num1 = input("Digite o primeiro digito: ")
+num2 = input("Digite o segundo digito: ")
+soma = float(num1)+float(num2)
+print(num1, "mais", num2, "e igual a", soma)
+
+
+a = int(input("Digite seus anos de serviço:"))
+b = 300
+
+f = a*b
+
+print("Voce recebeu um total bonus de", f)
+
+
+m = int(input("Digite quantos metros:"))
+mm = m*1000
+
+print(m,"metros sao igual a", mm,"milimetros")
+
+
+d = int(input("Digite a distancia a percorrer:"))
+v = int(input("Digite a velocidade media:"))
+t = d/v
+
+print('O tempo em que voce vai chegar sera de', t,'horas')
+
+
+ km = int(input("Digite os km a percorrer:"))
+ d = int(input("Digite os dias a ser alugado:"))
+
+ f = (km*0.15)+(d*60)
+
+ print("Se voce ira percorrer", km, "e ficar", d, 'dias', "voce ira pagar", f, "reais")
+
+
+ num1 = int(input("Digite o primeiro numero:"))
+ num2 = int(input("Digite o segundo numero:"))
+
+ aux = num1%2
+ aux1 = num2%2
+
+ if aux==aux1:
+      numero = True
+
+ else:
+      numero = False
+
+ print(numero)
+
+
+ km = int(input("Digite a velocidade que estava:"))
+ lim = 80
+
+ if km>lim:
+      multa=(km-lim)*5
+ else:
+      multa= 0
+
+
+ print("Sua multa e igual a", multa)
+
+
+ salario = int(input("Digite seu salario:"))
+ idade = int(input("Digite sua idade:"))
+
+ if salario>=1500:
+      emprestimo =True
+
+ else:
+      emprestimo =False
+
+ if idade>=18:
+      emprestimo =True
+
+ else:
+      emprestimo=False
+
+ print("Seu emprestimo foi", emprestimo)
+
+
+ salario = int(input("Digite seu salario:"))
+ idade = int(input("Digite sua idade:"))
+
+ if salario>=1500:
+     if idade>=18:
+         print("Voce esta apto para seu emprestimo")
+
+     else:
+         print("Voce nao esta apto para seu emprestimo")
+ else:
+     print("Voce nao esta apto para seu emprestimo")
+
+
+ numero = int(input("Digite um numero:"))
+ 
+ if numero%2 >0:
+     print("impar")
+     if numero >= 100:
+         print("maior ou igual a cem")
+     else:
+         print("menor que cem")
+ else:
+     print("par")
+     if numero >= 100:
+         print("maior ou igual a cem")
+     else:
+         print("menor que cem")
